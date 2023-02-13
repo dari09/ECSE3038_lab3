@@ -51,8 +51,6 @@ async def create_new_profile(request:Request):
     return created_profile
 
 
-
-
 @app.post("/data",status_code=201)
 async def create_new_profile(request:Request):
     tank_object = await request.json()
@@ -80,7 +78,7 @@ async def do_update(id:str, request: Request):
     else:
          raise HTTPException(status_code=404, detail="Item not found")
 
-         
+
 @app.delete("/data/{id}",status_code=204)
 async def delete_tank(id: str):
 

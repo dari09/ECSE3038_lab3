@@ -21,3 +21,5 @@ The tank endpoints handle operations on the tanks collection, such as retrieving
 Additionally, the code sets up a custom encoder for converting ObjectIds from MongoDB to strings, which is used when returning JSON responses from the endpoints.
 
 ----------------------------------------------------------------------------------------------
+<img src="https://media.tenor.com/Xog-njZu2GoAAAAd/looney-tunes.gif" alt="funny GIF" width="100%">
+----------------------------------------------------------------------------------------------
